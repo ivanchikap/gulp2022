@@ -1,0 +1,19 @@
+.container {
+  padding: 0 15px;
+  max-width: 1230px;
+  margin: 0 auto;
+
+  @include laptop {
+    max-width: 960px;
+  }
+  @include tablet {
+    max-width: 720px;
+  }
+  @include mobile-large {
+    max-width: 540px;
+  }
+  @include mobile {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
