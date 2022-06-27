@@ -1,3 +1,4 @@
+/*
 const modalBtn = document.querySelectorAll('[data-modal]');
 const body = document.body;
 const modalClose = document.querySelectorAll('.modal__close');
@@ -50,3 +51,4 @@ function closeModal(currentModal) {
         body.classList.remove('no-scroll');
     }, 200);
 }
+*/

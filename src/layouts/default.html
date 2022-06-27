@@ -3,18 +3,24 @@
 <head>
     {{> head }}
 </head>
-<body>
+<body class="show-sidebar">
         <!-- Header -->
-        {{> header }}
+        <header class="header">
+            {{> header }}
+
+        </header>
+
+        {{> sidebar }}
 
         <!-- Main -->
         <main class="main">
             {{> body }}
         </main>
 
-
         <!-- Footer -->
         {{> footer }}
+
+        <div class="page-mask" id="pageMask"></div>
 
     <script src="assets/js/app.js"></script>
 </body>
